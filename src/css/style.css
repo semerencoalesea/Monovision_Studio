@@ -112,16 +112,17 @@ html {
     background: url(../img/main_bg.jpg) center center / cover no-repeat;
     padding-top: 75px;
 
-    @media screen and (max-width: 768px) {
+    /* @media screen and (max-width: 768px) {
         & {
+            background-position-x: right;
             background-image: url(../img/tablet_bg.jpg);
         }
-    }
+    } */
 
     @media screen and (max-width: 576px) {
         min-height: 500px;
         padding-top: 50px;
-        background-position-x: right;
+        /* background-position-x: right; */
     }
 }
 
